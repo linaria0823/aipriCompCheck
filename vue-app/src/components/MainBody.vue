@@ -212,6 +212,7 @@ export default {
     }
   },
   mounted() {
+    //Cookies.remove('selectedItems');
     // 各弾のリストを更新
     this.updateList();
     // コンポーネントがマウントされたときにCookieからデータを読み込む
